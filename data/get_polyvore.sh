@@ -6,7 +6,7 @@ fi
 
 file_images="$dir/polyvore_images.tar.gz"
 if [ ! -f "$file_images" ]; then
-	gdown 'https://drive.google.com/uc?id=0B4Eo9mft9jwoNm5WR3ltVkJWX0k' -O "$file_images"
+	gdown 'https://drive.google.com/file/d/1ziuzY9L43dqKgDF7UwhlwQcxbmXyodbg/view?usp=sharing' -O "$file_images"
 fi
 
 if [[ ! -e "$dir/jsons" ]] || [ -z "$(ls -A $dir/jsons)" ]; then
