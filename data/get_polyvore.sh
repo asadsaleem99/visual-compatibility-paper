@@ -1,7 +1,7 @@
 dir="polyvore"
 file="$dir/polyvore.tar.gz"
 if [ ! -f "$file" ]; then
-	wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=0B4Eo9mft9jwoWHhyc05VQnNyMHc' -O "$file"
+	wget --no-check-certificate 'https://drive.google.com/file/d/0B4Eo9mft9jwoWHhyc05VQnNyMHc/view?usp=sharing&resourcekey=0-n17-2LbTwtjuw2IiDsTkhA' -O "$file"
 fi
 
 file_images="$dir/polyvore_images.tar.gz"
